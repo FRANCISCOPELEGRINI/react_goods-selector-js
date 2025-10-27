@@ -83,12 +83,12 @@ export const App = () => {
     <main className="section container">
       {selectedGood ? (
         <h1 className="title is-flex is-align-items-center">
-          {selectedGood} está selecionado
+          {selectedGood} is selected
           {ClearButton}
         </h1>
       ) : (
         <h1 className="title is-flex is-align-items-center">
-          Nenhum item selecionado
+          No goods selected
         </h1>
       )}
 
